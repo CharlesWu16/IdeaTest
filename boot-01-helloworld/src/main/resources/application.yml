@@ -1,0 +1,6 @@
+server:
+  port: 8888
+mycar:
+  brand: Benz C Class
+  price: 318000.00
+  expensive: true
