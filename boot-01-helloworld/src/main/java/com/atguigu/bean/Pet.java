@@ -14,4 +14,5 @@ import lombok.NoArgsConstructor;
 public class Pet {
     private String name;
     private String age;
+    private String like;
 }
