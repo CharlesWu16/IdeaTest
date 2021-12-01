@@ -12,11 +12,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
-    int a;
-
-    protected final int b =1;
-
-    public void method(){
-        System.out.println("hello");
-    }
+    private String name;
+    private Integer age;
+//    int a;
+//
+//    protected final int b =1;
+//
+//    public void method(){
+//        System.out.println("hello");
+//    }
 }
