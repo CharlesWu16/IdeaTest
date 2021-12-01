@@ -16,4 +16,5 @@ public class Pet {
     private String age;
     private String like;
     private String color;
+    private String sex;
 }
