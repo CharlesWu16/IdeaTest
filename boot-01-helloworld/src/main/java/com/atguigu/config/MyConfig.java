@@ -20,13 +20,13 @@ import org.springframework.context.annotation.Configuration;
 //@EnableConfigurationProperties(Car.class)
 public class MyConfig {
 
-    @Bean
-    public User getUser(){
-        return new User("Charles",30);
-    }
+//    @Bean
+//    public User getUser(){
+//        return new User("Charles",30);
+//    }
 
     @Bean
     public Pet getPet(){
-        return new Pet("Tomcat");
+        return new Pet();
     }
 }
