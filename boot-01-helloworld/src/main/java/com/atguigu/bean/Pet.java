@@ -17,4 +17,5 @@ public class Pet {
     private String like;
     private String color;
     private String sex;
+    private boolean flag;
 }
